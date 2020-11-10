@@ -1,4 +1,4 @@
-i3wm-mac-syskeys
+i3wm-mac-syskeys v0.0.1
 
 Note that this only works with Macs running,but can be adapted to also work with other window managers.
 
