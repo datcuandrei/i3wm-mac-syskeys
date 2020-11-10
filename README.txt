@@ -1,4 +1,5 @@
 i3wm-mac-syskeys v0.0.1
+*proudly written using GNU nano
 
 Note that this only works with Macs running,but can be adapted to also work with other window managers.
 
@@ -16,7 +17,20 @@ The idea behind using it with other window managers :
 
 If you can modify your wm's config file to add the key bindings found in the setup.sh file to execute the scripts,you are all set!
 
-Legal stuff
+You can also use it without running the setup.sh by using the scripts individually.
+
+To run the scripts,simply open terminal and input : 
+sh <script>.sh <arg> where :
+- <script> = name of the script
+- <arg> = what you want the script to do.
+
+The following arguments are available:
+
+1) -max(brightness/kbd) = max value for screen brightness / keyboard backlight brightness
+2) -atm(brightness/kdb) = current value for screen brightness / keyboard backlight brightness
+3) -inc(all) = increase the value
+4) -dec(all) = decrease the value
+5) -mute(vol) = toggles mute.
 
 Copyright 2020 Andrei Datcu <@datcuandrei>
 
