@@ -1,7 +1,7 @@
 i3wm-mac-syskeys v0.0.1
 *proudly written using GNU nano
 
-Note that this only works with Macs running,but can be adapted to also work with other window managers.
+Note that this only works with Macs running i3wm,but can be adapted to also work with other window managers.
 
 How to install : 
 
