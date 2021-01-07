@@ -13,6 +13,14 @@ This script will automatically create the configuration folder where the other s
 
 - Reload i3(mod+Shift+C)(or your wm if you have patched it to work with your wm).
 
+## Troubleshooting :
+In case you get something that mentions `Permission denied.` it is most likely because the script doesn't have permission to write.
+In order to solve this, you need to get permission to read and write those files,and you can do that by using `chmod` :
+```bash
+$ sudo chmod a+rw /sys/class/backlight/intel_backlight/brightness
+
+$ sudo chmod a+rw /sys/class/leds/smc::kbd_backlight/brightness
+```
 ## The idea behind using it with other window managers : 
 
 If you can modify your wm's config file to add the key bindings found in the setup.sh file to execute the scripts,you are all set!
