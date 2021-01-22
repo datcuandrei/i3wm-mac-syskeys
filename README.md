@@ -39,7 +39,7 @@ The following arguments are available:
 4) `-dec`(all) = decrease the value
 5) `-mute`(vol) = toggles mute.
 
-Copyright 2020 Andrei Datcu <@datcuandrei>
+Copyright 2020-2021 Andrei Datcu <@datcuandrei>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
