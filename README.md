@@ -1,7 +1,6 @@
-# i3wm-mac-syskeys v0.0.1
-*proudly written using GNU nano
+# i3wm-xfkeys
 
-<b>Note that this only works with Macs running i3wm,but can be adapted to also work with other window managers.</b>
+<b>Note that this only works with computers running i3wm,but can be adapted to also work with other window managers.</b>
 
 ## How to install : 
 
@@ -17,9 +16,9 @@ This script will automatically create the configuration folder where the other s
 In case you get something that mentions `Permission denied.` it is most likely because the script doesn't have permission to write.
 In order to solve this, you need to get permission to read and write those files,and you can do that by using `chmod` :
 ```bash
-$ sudo chmod a+rw /sys/class/backlight/intel_backlight/brightness
+$ sudo chmod a+rw /sys/class/backlight/manufacturer/brightness
 
-$ sudo chmod a+rw /sys/class/leds/smc::kbd_backlight/brightness
+$ sudo chmod a+rw /sys/class/leds/manufacturer::kbd_backlight/brightness
 ```
 ## The idea behind using it with other window managers : 
 
